@@ -1,0 +1,54 @@
+* { 
+	margin: 0; 
+	padding: 0; 
+}
+
+body { 
+	font-size: 62.5%; 
+	font-family: 'Droid serif', serif;
+	/*background: url(images/page-bg.jpg) 45% 130px no-repeat #233743; */
+	background-color: #F5D74D;
+	color: white; 
+}
+
+h6 {
+	font-size: 1.4em;
+	margin-bottom: 15px;
+}
+
+a { color: white; }
+
+label, li {
+	display: block;
+	padding: 5px;
+	font-size: 1.4em;
+	color: #000000;
+}
+
+fieldset {
+	margin: 175px auto;
+	width: 400px;
+	padding: 8px 15px 15px 15px;
+	border: 1px solid white;
+	display: block; /* IE 7 Requires This */
+	}
+	legend {
+		padding: 4px 6px 4px 6px;
+		border: 1px solid white;
+		font-size: 2.0em;
+		color: black;
+		font-style: italic;
+	}
+	
+ul { list-style: none; margin-bottom: 15px;}
+
+.results-bar {
+	padding: 10px;
+	color: black;
+	background: url(images/result-bar-bg.png) left center;
+	white-space: nowrap;
+}
+
+span.total-votes {
+	font-size: 2.6em;
+}
